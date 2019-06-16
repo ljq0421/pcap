@@ -1,0 +1,5 @@
+DEBIAN_PACKAGE-dkms (MODULE_VERSION) stable; urgency=low
+
+  * GIT info: dev:4ba4ffbebbca5781af789e7a5fbf297069d6c361 (Fri Oct 12 10:36:15 2018 +0200)
+
+ -- Dynamic Kernel Modules Support Team <pkg-dkms-maint@lists.alioth.debian.org>  DATE_STAMP

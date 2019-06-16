@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: MyNewPass@123
+    url: jdbc:mysql://10.10.87.22:3306/ins_user?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:dao/mapper/*Mapper.xml
+  type-aliases-package: org.fkjava.mavenqs.entity
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug

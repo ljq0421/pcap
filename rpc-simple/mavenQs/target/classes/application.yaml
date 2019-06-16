@@ -1,0 +1,12 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        name: dev
+        url: jdbc:mysql://10.10.87.22:3306/ins_user?serverTimezone=GMT%2B8
+        username: root
+        password: MyNewPass@123
+
+mybatis:
+    mapper-locations: "org/fkjava/mavenqs/dao/mapper/*.xml"
